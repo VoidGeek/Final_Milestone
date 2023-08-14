@@ -10,7 +10,7 @@ import Login from './components/login';
 import Signup from './components/signup';
 import Library from './components/library';
 
-// Main File is this
+// Main File
 function App() {
   return (
     <>
