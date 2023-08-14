@@ -1,0 +1,26 @@
+/* login.css */
+
+#image {
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/29/13/08/planet-1702788_1280.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the background opacity */
+  }
+  
+  .login-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the background opacity */
+    border-radius: 10px;
+    padding: 30px; /* Increase the padding for a bigger card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width of the card */
+    text-align: center;
+  }
+  
