@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# YumHub
+# BookHaven
 Problem statement: 
 Book Library Application: Develop a book library application where users can add, search,
 and categorise books in their collection.
