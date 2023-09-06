@@ -1,31 +1,29 @@
-import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
-import About from './components/about';
-import Homepage from './components/home';
-import Course from './components/course';
-import Footer from './components/Footer'; // Import the Footer component
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from './components/navbar';
-import Login from './components/login';
-import Signup from './components/signup';
-import Library from './components/library';
-
-// Main file is this
+import React from "react"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Landingpage from "./pages/Landingpage"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Footer from "./components/Footer"
+import Details from "./pages/Details"
+import Profile from "./pages/Profile"
+import EditBook from "./pages/EditBook"
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/course" element={<Course />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/library" element={<Library />} />
-        </Routes>
-        <Footer/>
-      </Router>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landingpage/>}/>
+        <Route path="/login" element={<Login/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/home/:user" element={<Home/>} />
+        <Route path="/details/:user/:id" element={<Details/>}/>
+        <Route path="/edit/:user/:id" element={<EditBook/>} />
+        <Route path="/profile/:user" element={<Profile/>}/>
+      </Routes>
+      </BrowserRouter>
     </>
   );
 }
