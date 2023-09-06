@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # BookHaven
 Problem statement: 
 Book Library Application: Develop a book library application where users can add, search,
@@ -26,7 +26,3 @@ Features:
     ● The application will have a responsive and intuitive user interface for seamless
     usage across devices.
     ● User-friendly interactions and visualisations will enhance the user experience.
-=======
-# Final_Milestone
-Frontend folder contains the frontend
->>>>>>> c8e2a42e6738c88a1b9fcebf8d5b0a08dc69efb0
