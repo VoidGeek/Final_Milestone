@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 7928f01c4b45eac7fcf7d3618204498300a26235
 # BookHaven
 Problem statement: 
 Book Library Application: Develop a book library application where users can add, search,
